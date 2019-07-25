@@ -1,0 +1,182 @@
+body{
+	font-family: 'PT Sans', sans-serif !important;
+}
+.bg-dark{
+	background-color: #262625 !important;
+}
+
+.nav-item{
+	margin-right: 1rem;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.nav-item.active{
+	color: #fff;
+	border-bottom: solid 4px #F7931E;
+}
+
+.btn-cotiza {
+	background-color: #F7931E;
+	padding: .37rem 1.5rem;
+}
+
+#mainLogo{
+    height: 70px;
+}
+
+#secondLogo{
+    height: 90px;
+}
+
+#firstjumbo{
+    background-image:url("./images/mainabout.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    
+}
+   
+   
+#firstjumbo .jumbotron{
+      
+	background-color: rgba(0,0,0,0.2);
+	margin-top: 55px;
+	margin-bottom: 0;
+	text-align: center;
+	color: #fff;
+	font-size: 90px;
+
+}
+
+   #firstjumbo .jumbotron h1{
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+	padding-top: 170px;
+   }
+
+.aboutUsblocks{
+	width: 570px;
+	height: 500px;
+	
+}
+
+
+#imagesAbus{
+	margin-top: 40px;
+	margin-left: 40px;
+}
+
+.card{
+	margin-top: 30px;
+	border: none;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.justify{
+	text-align: justify;
+	font-size: 20px;
+	padding: 50px;
+}
+
+
+.col-md-12{
+	padding-top: 50px;
+	font-size: 35px;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.card i{
+	font-size: 100px;
+	color: #f15a24;	
+	padding-top: 40px;
+	padding-bottom: 30px;	
+
+}
+
+#change:hover{
+	color: #031771;
+}
+
+
+.btn-fourth-cotiza{
+    border-radius: 7px;
+	background:  #F7931E;
+	color: #fff;
+	
+	text-align: center;
+    font-size:21px;
+    border: none;
+    padding: .2rem 1rem;
+}
+
+input{
+    padding: .5rem 3rem;
+    border-radius: 7px;
+    border: none;
+} 
+.nostyle li{
+    list-style: none;
+    color: white;
+    text-align: center;
+}
+
+.secondList{
+   
+    color: #fff
+}
+.nodeco{
+    text-decoration: none;
+}
+
+footer h2{
+	font-size: 28px;
+	color: #fff;
+}
+
+footer h3{
+	font-size: 18px;
+	color: #fff;
+}
+
+.map-site a{
+	color:#fff;
+
+}
+
+.map-site li{
+	margin: 5px 0px; 
+}
+
+.map-site i {
+	color: #F7931E;
+}
+
+#newsletter{
+	border-radius: 0px;
+	width:14rem;
+}
+
+.social-icons{
+	width: 60%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.social-icons i{
+	color:#fff;
+	font-size: 26px;
+}
+
+@media(max-width:425px){
+	#firstjumbo h1{
+		margin-top: 37px;
+	}
+}
+#newsdown{
+    padding-top: 15px;
+}

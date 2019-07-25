@@ -1,0 +1,162 @@
+body{
+	font-family: 'PT Sans', sans-serif !important;
+}
+
+.bg-dark{
+	background-color: #262625 !important;
+}
+
+.nav-item{
+	margin-right: 1rem;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.nav-item.active{
+	color: #fff;
+	border-bottom: solid 4px #F7931E;
+}
+
+.btn-cotiza {
+	background-color: #F7931E;
+	padding: .37rem 1.5rem;
+}
+
+#mainLogo{
+    height: 70px;
+}
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+
+main .container{
+    margin-top: 150px;
+    margin-bottom: 110px;
+
+}
+
+.container h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    padding-bottom: 40px; 
+}
+
+button.accordian{
+    width: 100%;
+    background-color:#f7931e;
+    border: 1px solid ;
+    outline: none;
+    text-align: left;
+    padding: 10px 15px;
+    font-size: 23px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    animation-duration: 2s;
+}
+
+
+
+button.accordian::after{
+    content: "\f067";
+    font-family: 'fontawesome';
+    font-size: 20px;
+    float: right;
+    
+}
+
+p.question{
+   
+    padding-left: 20px;
+    border-radius: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background: #262625;
+	color: #F7931E;
+	border: solid 2px #F7931E;
+}
+
+button.accordian.is-open::after{
+    content: "\f068";
+    font-family: 'fontawesome';
+    font-size: 20px;
+    float: right;
+    
+    
+}
+
+button.accordian:hover,button.accordian.is-open{
+background-color: #f15a24;
+}
+
+.accordian-content{
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+}
+
+
+
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+.nostyle li{
+    list-style: none;
+    color: white;
+    text-align: center;
+}
+.btn-fourth-cotiza{
+    
+	background:  #F7931E;
+	color: #fff;
+	border-radius: 7px;
+	text-align: center;
+    font-size:21px;
+    border: none;
+    padding: .2rem 1rem;
+}
+
+
+
+footer h2{
+	font-size: 28px;
+	color: #fff;
+}
+
+footer h3{
+	font-size: 18px;
+	color: #fff;
+}
+
+.map-site a{
+	color:#fff;
+
+}
+
+.map-site li{
+	margin: 5px 0px; 
+}
+
+.map-site i {
+	color: #F7931E;
+}
+#newsdown{
+    padding-top: 15px;
+}
+
+#newsletter{
+	border-radius: 0px;
+	width:14rem;
+}
+
+.social-icons{
+	width: 60%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.social-icons i{
+	color:#fff;
+	font-size: 26px;
+}

@@ -1,0 +1,456 @@
+body{
+	font-family: 'PT Sans', sans-serif !important;
+}
+
+.bg-dark{
+	background-color: #262625 !important;
+}
+
+.nav-item{
+	margin-right: 1rem;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.nav-item.active{
+	color: #fff;
+	border-bottom: solid 4px #F7931E;
+}
+
+.btn-cotiza {
+	background-color: #F7931E;
+	padding: .37rem 1.5rem;
+}
+
+#mainLogo{
+    height: 70px;
+}
+
+#firstjumbo{
+ background-image:url("./images/solar_panelarray.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: 100%; 
+}
+#firstjumbo .jumbotron{
+   
+    background-color: rgba(0,0,0,0.5);
+    margin-top: 55px;
+    margin-bottom: 0;
+    text-align: center;    
+}
+#firstjumbo h1{
+    color: white;
+    font-size: 3.2rem;
+    margin-top: 130px;
+}
+#firstjumbo h2{
+    color: white;
+    margin-top: 30px;
+    font-size: 2rem;
+}
+
+/*inicio css blog ==============================================*/
+
+#firstjumbo1{
+    background-image:url("./images/jumbo_blog.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%; 
+   }
+   #firstjumbo1 .jumbotron{
+      
+       background-color: rgba(0,0,0,0.5);
+       margin-top: 55px;
+       margin-bottom: 0;
+       text-align: center;    
+   }
+   #firstjumbo1 h1{
+       color: white;
+       font-size: 6.2rem;
+       margin-top: 130px;
+   }
+
+   .card{
+       padding: 10px;
+       margin-top: 30px;
+       margin-bottom:10px; 
+   }
+
+   .card p{
+       color:#F7931E;
+       font-weight: bold;   
+   }
+
+   
+
+   .card .btn{
+       color: #000;
+       background-color: none;
+       margin-left: 110px;
+   }
+
+/*fin blog ===============================================*/
+/*Estilo de contacto ==========================================*/
+
+#title{
+    padding-left: inherit;
+    padding-right: inherit;
+
+}
+
+#title h1{
+    text-align: center;
+    margin-bottom: 25px;
+    background-color:#000;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+
+
+#formulario{
+    margin-bottom: 20px;
+    margin-top: 120px;
+    text-align: center;
+}
+
+#formulario input{
+    border-bottom:1px solid #444;
+    margin: 40px;
+    outline: none;  
+    width: 80%
+}
+
+#usermessage{
+    border-radius: 10px;
+    margin: 10px;
+    outline: none;
+    width: 90%;
+}
+
+#map{
+    margin-top: 20px;
+}
+
+#firstform{
+    background-color: #F7931E;
+    width: 100%;
+}
+#firstform h2{
+    padding: 25px;
+    
+}
+
+#firstform h3{
+    padding: 15px;
+    border-bottom: 2px solid #000;
+    
+}
+
+
+#send{
+    margin-top: 25px;
+    display: block;
+    text-align: start;
+    padding: 20px 40px;
+    background-color: #F7931E;
+}
+
+#mainicons{
+    width: 100%;
+    justify-content: space-around;
+}
+
+
+/*fin del estilo de contacto========================================*/
+/*Results============================================================*/
+
+.selection{
+    margin-top: 300px;
+    text-align: center;
+}
+
+.selection .filter{
+    display: inline-flex;
+}
+
+
+
+.resultList #res #resultcard{
+    border: none;
+    border-bottom: 2px solid #000;
+    border-radius: 0;
+    padding-bottom: 50px;
+    
+}
+
+.resultList #res #resultcard #botton,h4{
+    text-align: center;
+    display: block;
+    margin-bottom: 15px;
+    margin-left: 0;
+}
+
+#resultcard #botton{
+    font-size: 25px;
+}
+
+#resultcard h4{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px; 
+}
+
+
+
+
+/*Results============================================================*/
+.btn-main-cotiza {
+    background: #262625;
+	color: #F7931E;
+	border: solid 1px #F7931E;
+	border-radius: 15px;
+	font-weight: bold;
+	text-align: center;
+	font-size:21px;
+	padding: 1.5rem 3rem;
+	margin-top: 4rem;
+}
+
+.btn-thirth-cotiza {
+	
+	border-radius: 15px;
+	background:  #F7931E;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	font-size:21px;
+	padding: 2rem 3rem;
+	margin-top: 4rem;
+}
+
+.btn-fourth-cotiza{
+    
+	background:  #F7931E;
+	color: #fff;
+	border-radius: 7px;
+	text-align: center;
+    font-size:21px;
+    border: none;
+    padding: .2rem 1rem;
+}
+
+input{
+    padding: .5rem 3rem;
+    border-radius: 7px;
+    border: none;
+} 
+
+
+#services {
+    margin: 0;
+    text-align: center;
+    font-size: 60px;
+    color: black;
+    padding-bottom: 60px;
+    padding-top: 40px; 
+}
+
+
+#firstblock{
+    background-image: url("./images/firstblock.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    color: white;
+    padding: 0;
+    
+    
+}
+
+#secondblock{
+    background-image: url("./images/secondblock.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    color: white;
+    padding: 0;
+
+}
+
+#thirthblock{
+    background-image: url("./images/thirthblock.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    color: white;
+    padding: 0;
+
+}
+
+#fourthblock{
+    background-image: url("./images/fourthblock.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    color: white;
+    padding: 0;
+
+}
+
+#shadeonblock{
+
+    background-color: rgba(0,0,0,0.7);
+     
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.openBlock{
+	margin: 30px 78px;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.openBlock p {
+	text-align: justify;
+}
+
+.openBlock img {
+	width: 6.1rem;
+}
+
+#secondjumbo{
+    text-align: center;
+    background: #000;
+    color: #fff;
+
+}
+
+#secondjumbo h1{
+    font-size: 55px
+}
+
+.carousel-indicators li{
+    background-color: #444;
+}
+
+#slideDirection{
+    background-color: black;
+    border-radius: 30px;
+}
+
+.negrito{
+    background-color: rgba(0,0,0,0.8);
+    height: 100%;
+
+}
+
+#lastsection{
+    text-align: center;
+}
+
+#lastsection h4{
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+
+.card-black{
+	background: #000;
+    color: #fff;
+    border: 2px solid #F7931E;
+    border-radius: 12px;
+}
+
+.card-white{
+	border: 2px solid #F7931E;
+    border-radius: 12px;
+}
+
+.carousel-inner{
+    padding:80px  150px;
+    font-size: 30px;
+    padding-top: 50px;
+}
+
+#lastsection h1{
+    font-size: 60px;
+}
+
+.btn-white-cotiza{
+    background:#fff;
+    color: black;
+    font-weight: bold;
+	text-align: center;
+	font-size:21px;
+	padding: 1.5rem 3rem;
+    margin-top: 4rem;
+    border-radius: 15px;
+    border: solid 2px black;
+    margin-bottom: 4rem;
+}
+
+.nostyle li{
+    list-style: none;
+    color: white;
+    text-align: center;
+}
+
+
+
+footer h2{
+	font-size: 28px;
+	color: #fff;
+}
+
+footer h3{
+	font-size: 18px;
+	color: #fff;
+}
+
+.map-site a{
+	color:#fff;
+
+}
+
+.map-site li{
+	margin: 5px 0px; 
+}
+
+.map-site i {
+	color: #F7931E;
+}
+
+#newsletter{
+	border-radius: 0px;
+	width:14rem;
+}
+
+.social-icons{
+	width: 60%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.social-icons i{
+	color:#fff;
+	font-size: 26px;
+}
+
+@media(max-width:425px){
+	#firstjumbo h1{
+		margin-top: 37px;
+	}
+}
+#newsdown{
+    padding-top: 15px;
+}
